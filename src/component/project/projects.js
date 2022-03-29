@@ -1,6 +1,5 @@
 import * as React from "react";
-import { Navbar } from "../navbar/navbar";
-import "./projects.css";
+ import "./projects.css";
 
 let project = [
   {
