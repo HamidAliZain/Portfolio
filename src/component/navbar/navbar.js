@@ -1,26 +1,22 @@
-import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-
 import "./nav.css";
 
 export const Navbar = () => {
-  const [hambur, setHam] = useState(true);
-  const [page, setPage] = useState(true);
-  const menu = () => {
-    setHam(!hambur);
-    setPage(!page);
-  };
-
   return (
     <>
       <div className="overlay-content">
-        <div className="name-logo">
-          <a href="https://github.com/HamidAliZain"  target="_blank" className="ican-a">
-            <h3>Hamid Ali</h3>
-          </a>
-        </div>
+        <a
+          href="https://github.com/HamidAliZain"
+          style={{ textDecoration: "none" }}
+          target="_blank"
+        >
+          <h3 className="name-tag">Hamid Ali</h3>
+        </a>
         <div className="nav-icon">
-          <a className="ican-a" href="https://twitter.com/HamidAliZain" target="_blank">
+          <a
+            className="ican-a"
+            href="https://twitter.com/HamidAliZain"
+            target="_blank"
+          >
             <i className="fa-brands fa-twitter nav-logo"></i>
           </a>
           <a

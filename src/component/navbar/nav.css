@@ -6,34 +6,33 @@
     position: fixed;
     padding: 10px 1 0px;
     display: flex;
-    -webkit-backdrop-filter: blur(8px);
-    backdrop-filter: blur(5px);
+    padding: 10px 20px;
+    justify-content: space-between;
 }
 
-
-.name-logo {
-    width: 50%;
-    color: white;
-    font-weight: 800;
-    font-family: monospace;
-    margin-top: 10px;
-    margin-left: 20px;
-
-}
-
-.name-logo:hover {
-    opacity: 0.8;
-}
 
 .nav-icon {
-    width: 50%;
     font-size: 30px;
     color: aliceblue;
 }
 
+.name-tag {
+    color: white;
+    font-weight: 800;
+    font-family: monospace;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 30px;
+}
+
+.name-tag:hover {
+    color: #FF4D5A;
+    transition: all linear .2s;
+}
+
 .nav-logo {
-    float: right;
     margin: 10px 20px;
+    color: white;
 }
 
 .nav-logo2 {
@@ -47,6 +46,21 @@
 }
 
 .ican-a :hover {
-    color: white;
-    opacity: 0.4;
+    color: #FF4D5A;
+}
+
+@media only screen and (max-width: 550px) {
+    .name-tag {
+        color: white;
+        font-weight: 800;
+        font-family: monospace;
+        text-decoration: none;
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+       
+.nav-icon {
+    font-size: 20px;
+    color: aliceblue;
+}
 }
