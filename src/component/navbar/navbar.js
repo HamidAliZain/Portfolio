@@ -28,7 +28,7 @@ export const Navbar = () => {
             href="https://www.linkedin.com/in/hamid-ali-973382219/"
             target="_blank"
           >
-            <i class="fa-brands fa-linkedin-in nav-logo2"></i>
+            <i className="fa-brands fa-linkedin-in nav-logo2"></i>
           </a>
         </div>
       </div>

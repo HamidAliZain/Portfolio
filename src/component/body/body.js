@@ -9,15 +9,16 @@ import { Link } from "react-router-dom";
 
 import { useEffect, useState } from "react";
 import { Navbar } from "../navbar/navbar";
+import { FullPage } from "react-full-page/lib";
 
 export const Body = () => {
   const [state, setState] = useState(true);
 
   return (
     <>
-    <Navbar />
+      <Navbar />
       <ReactFullpage
-        licenseKey={"llwl"}
+        licenseKey={FullPage}
         scrollOverflow={true}
         scrollingSpeed={1100}
         render={({ state, fullpageApi }) => {
@@ -64,11 +65,17 @@ export const Body = () => {
                     >
                       <img src={list} alt="list" className="image" />
                     </a>
-                    <a href="https://timer-web-appli.netlify.app/" target="_blank">
+                    <a
+                      href="https://timer-web-appli.netlify.app/"
+                      target="_blank"
+                    >
                       <img src={clock} className="image" alt="clock" />
                     </a>
-                    <a href="https://romantic-kirch-c9947e.netlify.app/" target="_blank">
-                    <img src={covid} className="image" alt="covid" />
+                    <a
+                      href="https://romantic-kirch-c9947e.netlify.app/"
+                      target="_blank"
+                    >
+                      <img src={covid} className="image" alt="covid" />
                     </a>
                   </div>
                 </div>
@@ -91,9 +98,12 @@ export const Body = () => {
                       <i className="fa-brands fa-twitter icon2"></i>
                     </a>
                   </div>
-                   <a href="https://www.fiverr.com/users/hamidali178/manage_gigs" target="_blank">
-                     <img className="fiver" src={fiver} alt="fiver" />
-                     </a>
+                  <a
+                    href="https://www.fiverr.com/users/hamidali178/manage_gigs"
+                    target="_blank"
+                  >
+                    <img className="fiver" src={fiver} alt="fiver" />
+                  </a>
                 </div>
               </div>
             </>

@@ -4,7 +4,7 @@
     z-index: 9999;
     width: 100%;
     position: fixed;
-    padding: 10px 20px;
+    padding: 10px 1 0px;
     display: flex;
     -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(5px);

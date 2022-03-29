@@ -213,8 +213,7 @@
     .moon {
         width: 300px;
         position: absolute;
-        background-color: #ff0000;
-        border-radius: 55%;
+         border-radius: 55%;
         height: 300px;
         right: 2%;
         top: 3%;
@@ -242,7 +241,6 @@
     .des>h1 {
         color: white;
         font-family: 'Outfit', sans-serif;
-
         font-size: 60px;
     }
 
@@ -382,8 +380,7 @@
     .moon {
         width: 230px;
         position: absolute;
-        background-color: #000000;
-        border-radius: 55%;
+         border-radius: 55%;
         height: 230px;
         right: 14%;
         top: 6%;
@@ -393,17 +390,16 @@
     .des>h1 {
         color: white;
         font-family: 'Outfit', sans-serif;
-
         font-size: 40px;
         margin-left: 20px;
     }
 
-    .des-h5 {
+    .des-h5{
         color: white;
         font-family: 'Outfit', sans-serif;
-
-        font-size: 40px;
-        width: 100%;
+        font-size: 30px;
+        margin-left:60px ;
+        margin-top: 0px ;
     }
 
 
@@ -415,7 +411,7 @@
 
     .lin {
         background-color: #FF4D5A;
-        width: 120px;
+        width: 100px;
         height: 6px;
         margin-top: 10px;
         margin-left: 20px;
@@ -424,7 +420,7 @@
 
     .lin-2 {
         background-color: #FF4D5A;
-        width: 120px;
+        width: 100px;
         height: 6px;
         margin-top: 20px;
         float: right;
@@ -434,7 +430,7 @@
     .line-contaner {
         height: 50px;
         width: 200px;
-        margin-left: 60px;
+        margin-left: 30px;
     }
 
     /* 2 section */
@@ -461,18 +457,21 @@
     }
 
     .project-overview {
-        top: 0%;
+        top: 14%;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        left: 0%;
+        left: 10%;
+right: 20%;
         padding: 0 40px;
         margin: 0;
+        
     }
 
     .image {
-        width: 130px;
+        width: 100px;
         margin: 3px 0px 0px 20px;
         cursor: pointer;
+        
     }
 
     .image:hover {
@@ -490,18 +489,18 @@
 
 
     .icon {
-        font-size: 40px;
+        font-size: 30px;
         color: white;
         margin-left: 60px;
-        margin-top: 30px;
+        margin-top: 10px;
 
     }
 
     .icon2 {
-        font-size: 40px;
+        font-size: 30px;
         color: white;
-        margin-left: 60px;
-        margin-top: 30px;
+        margin-left: 30px;
+        margin-top: 10px;
     }
 
     .icon2:hover {
@@ -531,7 +530,7 @@
     }
 
     .contact-secion {
-        margin-top: 200px;
+        margin-top: 280px;
         margin-left: 0px;
         padding:0px 60px;
         width: 100%;
@@ -545,12 +544,12 @@
         font-size: 20px;
         margin-bottom: 30px;
         margin-left: 50px;
-        margin-top: 10px;
+        margin-top: 0px;
     }
 
     .fiver {
         position: absolute;
-        top: 5%;
+        top: 15%;
         right: 15%;
         width: 70%;
     }
