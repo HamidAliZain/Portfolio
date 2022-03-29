@@ -6,7 +6,6 @@ import "aos/dist/aos.css";
 function App() {
   return (
     <>
-    
       <Navbar />
       <Body />
     </>

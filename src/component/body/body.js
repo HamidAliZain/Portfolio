@@ -52,28 +52,28 @@ export const Body = () => {
                     <a
                       href="https://loving-shaw-765607.netlify.app/"
                       target="_blank"
-                      rel="https://loving-shaw-765607.netlify.app/"
+                      rel="a/;dlwl"
                     >
                       <img src={buisnes} alt="buisness" className="image" />
                     </a>
                     <a
                       href="https://list-setup-com.netlify.app/"
                       target="_blank"
-                      rel="https://list-setup-com.netlify.app/"
+                      rel="setyup"
                     >
                       <img src={list} alt="list" className="image" />
                     </a>
                     <a
                       href="https://timer-web-appli.netlify.app/"
                       target="_blank"
-                      rel="https://timer-web-appli.netlify.app/"
+                      rel="dsj/"
                     >
                       <img src={clock} className="image" alt="clock" />
                     </a>
                     <a
                       href="https://romantic-kirch-c9947e.netlify.app/"
                       target="_blank"
-                      rel="https://romantic-kirch-c9947e.netlify.app/"
+                      rel="dgas"
                     >
                       <img src={covid} className="image" alt="covid" />
                     </a>
@@ -91,16 +91,16 @@ export const Body = () => {
                       <div className="lin-2"></div>
                     </div>
                     <h4 className="contact-me">Wantedly</h4>
-                    <a href="https://github.com/HamidAliZain" rel="https://github.com/HamidAliZain" target="_blank">
+                    <a href="https://github.com/HamidAliZain" rel="hamidalioo" target="_blank">
                       <i className="fa-brands fa-github icon"></i>
                     </a>
-                    <a href="https://twitter.com/HamidAliZain" rel="https://twitter.com/HamidAliZain" target="_blank">
+                    <a href="https://twitter.com/HamidAliZain" rel="takwer" target="_blank">
                       <i className="fa-brands fa-twitter icon2"></i>
                     </a>
                   </div>
                   <a
                     href="https://www.fiverr.com/users/hamidali178/manage_gigs"
-                    rel="https://www.fiverr.com/users/hamidali178/manage_gigs"
+                    rel="laber"
                     target="_blank"
                   >
                     <img className="fiver" src={fiver} alt="fiver" />
