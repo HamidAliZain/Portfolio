@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+.projectHeading{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    margin: 150px 0px 40px 0px; 
+    
+}
+.link1{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.link1:hover{
+    color: white;
+}
+.button{
+    padding: 2px 10px;
+    margin: 2px;
+    border-radius: 10px;
+    outline: black;
+background-color:black;
+}

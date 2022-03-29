@@ -1,0 +1,52 @@
+.overlay-content {
+    background-color: transparent;
+    top: 0%;
+    z-index: 9999;
+    width: 100%;
+    position: fixed;
+    padding: 10px 20px;
+    display: flex;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(5px);
+}
+
+
+.name-logo {
+    width: 50%;
+    color: white;
+    font-weight: 800;
+    font-family: monospace;
+    margin-top: 10px;
+    margin-left: 20px;
+
+}
+
+.name-logo:hover {
+    opacity: 0.8;
+}
+
+.nav-icon {
+    width: 50%;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.nav-logo {
+    float: right;
+    margin: 10px 20px;
+}
+
+.nav-logo2 {
+    float: right;
+    margin: 10px 20px;
+}
+
+.ican-a {
+    color: white;
+    text-decoration: none;
+}
+
+.ican-a :hover {
+    color: white;
+    opacity: 0.4;
+}

@@ -1,0 +1,559 @@
+@import url('https://fonts.googleapis.com/css2?family=Lakki+Reddy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap');
+
+
+.fp-tableCell {
+    display: table-cell;
+    vertical-align: text-top !important;
+    width: 100%;
+    height: 100%;
+    background-color: linear-gradient(to left #071F3E 50%);
+    background: linear-gradient(to right, #071F3E 50%, #eee 165%);
+    color: #FF4D5A;
+}
+
+
+
+.moon {
+    width: 500px;
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 55%;
+    height: 500px;
+    right: 5%;
+    top: 6%;
+}
+
+.moon>h1 {
+    top: 35%;
+    left: -18%;
+    font-size: 100px;
+    position: absolute;
+    color: #FF4D5A;
+    word-spacing: 900px;
+}
+
+
+.des {
+    margin-top: 200px;
+    margin-left: 80px;
+    margin-right: 50px;
+}
+
+.des1>h1 {
+    animation: fb 3s 1 forwards ease;
+    color: #000000;
+}
+
+.des>h1 {
+    color: white;
+    font-family: 'Outfit', sans-serif;
+
+    font-size: 80px;
+}
+
+
+
+
+.des-h5 {
+    font-family: 'Outfit', sans-serif;
+
+    font-size: 50px;
+    margin: 21px 0px 0px 50px;
+    width: 400px;
+    color: linen;
+}
+
+.lin {
+    background-color: #FF4D5A;
+    width: 120px;
+    height: 6px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 30px;
+}
+
+.lin-2 {
+    background-color: #FF4D5A;
+    width: 120px;
+    height: 6px;
+    margin-top: 20px;
+    float: right;
+    border-radius: 30px;
+}
+
+.line-contaner {
+    height: 50px;
+    width: 200px;
+    margin-left: 90px;
+}
+
+/* @ 2 section */
+
+.project-section {
+    margin-top: 220px;
+    margin-left: 80px;
+}
+
+.project-section>h1 {
+    color: white;
+    font-family: 'Outfit', sans-serif;
+
+    font-size: 60px;
+}
+
+.project-overview {
+    margin-left: 50px;
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    top: 7%;
+    right: 2%;
+}
+
+.image {
+    width: 230px;
+    margin: 10px 0px 0px 20px;
+    cursor: pointer;
+}
+
+.image:hover {
+    border: 2px solid #ff0000;
+}
+
+.project-h5 {
+    color: white;
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-family: 'Outfit', sans-serif;
+
+}
+
+.icon {
+    font-size: 40px;
+    color: white;
+    margin-left: 60px;
+    margin-top: 10px;
+
+}
+
+.icon2 {
+    font-size: 40px;
+    color: white;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.icon2:hover {
+    opacity: 0.5;
+}
+
+.icon:hover {
+    color: white;
+    opacity: 0.4;
+}
+.butt{
+    background-color: #FF4D5A;
+    color: white;
+    padding:8px 20px;
+    border: 1px solid   #ff0000;
+    margin: 10px 40px;
+    border-radius: 20px ;
+}
+/* 3rd sect */
+
+.contact {
+    color: white;
+    font-family: 'Outfit', sans-serif;
+
+    font-size: 80px;
+}
+
+.contact-mail {
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-weight: 900;
+
+}
+
+.contact-secion {
+    margin-top: 200px;
+    margin-left: 80px;
+    width: fit-content;
+}
+
+.contact-me {
+    font-weight: 900;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.fiver {
+    position: absolute;
+    top: 20%;
+    right: 2%;
+    width: 50%;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 850px) {
+    .moon {
+        width: 300px;
+        position: absolute;
+        background-color: #ff0000;
+        border-radius: 55%;
+        height: 300px;
+        right: 2%;
+        top: 3%;
+
+    }
+
+    .moon>h1 {
+        top: 40%;
+        left: -18%;
+        font-size: 50px;
+        position: absolute;
+        word-spacing: 900px;
+    }
+
+
+
+    .des {
+        margin-top: 290px;
+        margin-left: 30px;
+        margin-right: 0px;
+
+    }
+
+
+    .des>h1 {
+        color: white;
+        font-family: 'Outfit', sans-serif;
+
+        font-size: 60px;
+    }
+
+    .des-h5 {
+        color: white;
+        font-family: 'Outfit', sans-serif;
+
+        font-size: 50px;
+        margin-top: 10px;
+        margin-left: 50px;
+
+    }
+
+    /* 2 sectione */
+
+    .project-section {
+        margin-top: 190px;
+        margin-left: 20px;
+    }
+
+    .project-section>h1 {
+        color: white;
+        font-family: 'Outfit', sans-serif;
+
+        font-size: 50px;
+    }
+
+    .project-overview {
+        margin-left: auto;
+        margin-right: auto;
+        top: 10%;
+    }
+
+    .image {
+        width: 150px;
+        margin: 10px 0px 0px 20px;
+        cursor: pointer;
+
+    }
+
+    .image:hover {
+        border: 2px solid #ff0000;
+    }
+
+    .project-h5 {
+        color: white;
+        font-size: 50px;
+        margin-left: 50px;
+        margin-top: 20px;
+        font-family: 'Outfit', sans-serif;
+
+    }
+
+    .icon {
+        font-size: 40px;
+        color: white;
+        margin-left: 60px;
+        margin-top: 30px;
+
+    }
+
+    .icon2 {
+        font-size: 40px;
+        color: white;
+        margin-left: 60px;
+        margin-top: 30px;
+    }
+
+    .icon2:hover {
+        opacity: 0.5;
+    }
+
+    .icon:hover {
+        color: white;
+        opacity: 0.4;
+    }
+
+    /*3rd  sec  */
+
+    .contact {
+        color: white;
+        font-family: 'Outfit', sans-serif;
+        font-size: 50px;
+    }
+
+    .contact-mail {
+        color: white;
+        font-family: 'Outfit', sans-serif;
+        font-size: 20px;
+        margin-bottom: 10px;
+        margin-left: 30px;
+        margin-top: 20px;
+        font-weight: 900;
+
+    }
+
+    .contact-secion {
+        margin-top: 150px;
+        margin-left: 50px;
+        width: fit-content;
+    }
+
+    .contact-me {
+        font-weight: 900;
+        color: white;
+        font-family: 'Outfit', sans-serif;
+        font-size: 30px;
+        margin-bottom: 30px;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+
+    .fiver {
+        position: absolute;
+        top: 30%;
+        right: 2%;
+        width: 45%;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 550px) {
+
+    .fp-tableCell {
+        display: table-cell;
+        vertical-align: text-top !important;
+        width: 100%;
+        height: 100%;
+        background-color: linear-gradient(to left #071F3E 50%);
+        background: linear-gradient(to right, #071F3E 30%, #eee 215%);
+        color: #FF4D5A;
+        ;
+    }
+
+    .moon {
+        width: 230px;
+        position: absolute;
+        background-color: #000000;
+        border-radius: 55%;
+        height: 230px;
+        right: 14%;
+        top: 6%;
+
+    }
+
+    .des>h1 {
+        color: white;
+        font-family: 'Outfit', sans-serif;
+
+        font-size: 40px;
+        margin-left: 20px;
+    }
+
+    .des-h5 {
+        color: white;
+        font-family: 'Outfit', sans-serif;
+
+        font-size: 40px;
+        width: 100%;
+    }
+
+
+    .des {
+        margin-top: 330px;
+        margin-left: 50px;
+        margin-right: 0px;
+    }
+
+    .lin {
+        background-color: #FF4D5A;
+        width: 120px;
+        height: 6px;
+        margin-top: 10px;
+        margin-left: 20px;
+        border-radius: 30px;
+    }
+
+    .lin-2 {
+        background-color: #FF4D5A;
+        width: 120px;
+        height: 6px;
+        margin-top: 20px;
+        float: right;
+        border-radius: 30px;
+    }
+
+    .line-contaner {
+        height: 50px;
+        width: 200px;
+        margin-left: 60px;
+    }
+
+    /* 2 section */
+
+    .project-section {
+        margin-top: 330px;
+        margin-left: 85px;
+        right: 0%;
+        margin-right: 80px;
+        width: 100%;
+    }
+
+    .project-section>h1 {
+        color: white;
+        font-family: 'Outfit', sans-serif;
+
+        font-size: 30px;
+    }
+
+    .line-contaner {
+        height: 50px;
+        width: 200px;
+        margin-left: 60px;
+    }
+
+    .project-overview {
+        top: 0%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        left: 0%;
+        padding: 0 40px;
+        margin: 0;
+    }
+
+    .image {
+        width: 130px;
+        margin: 3px 0px 0px 20px;
+        cursor: pointer;
+    }
+
+    .image:hover {
+        border: 2px solid #ff0000;
+    }
+
+    .project-h5 {
+        color: white;
+        font-size: 30px;
+        margin-left: 50px;
+        margin-top: 10px;
+        font-family: 'Outfit', sans-serif;
+
+    }
+
+
+    .icon {
+        font-size: 40px;
+        color: white;
+        margin-left: 60px;
+        margin-top: 30px;
+
+    }
+
+    .icon2 {
+        font-size: 40px;
+        color: white;
+        margin-left: 60px;
+        margin-top: 30px;
+    }
+
+    .icon2:hover {
+        opacity: 0.5;
+    }
+
+    .icon:hover {
+        color: white;
+        opacity: 0.4;
+    }
+    /* 3rd section */
+    .contact {
+        color: white;
+        font-family: 'Outfit', sans-serif;
+        font-size: 35px;
+    }
+
+    .contact-mail {
+        color: white;
+        font-family: 'Outfit', sans-serif;
+        font-size: 17px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        margin-top: 10px;
+        font-weight:  900;
+
+    }
+
+    .contact-secion {
+        margin-top: 200px;
+        margin-left: 0px;
+        padding:0px 60px;
+        width: 100%;
+         
+    }
+
+    .contact-me {
+        font-weight: 900;
+        color: white;
+        font-family: 'Outfit', sans-serif;
+        font-size: 20px;
+        margin-bottom: 30px;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+
+    .fiver {
+        position: absolute;
+        top: 5%;
+        right: 15%;
+        width: 70%;
+    }
+
+
+}
